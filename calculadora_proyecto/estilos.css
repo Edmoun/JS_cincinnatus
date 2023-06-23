@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1953c;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkolivegreen;
+    background-color: coral;
+    font-size: 1.1em;
+    border: rgba(0, 255, 42, 0.37) solid 5px;
+    border-radius: 10%;
+    box-shadow: 0 0 1em black ;
+    text-align: center;
+    margin: 100px auto;
+    margin-top: 2rem;
+}
+
+body div.micalculadora{
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    background: #025460;
+    border-radius: 10px;
+}
+
+div input[type="button"], button{
+    width: 40px;
+    height: 40px;
+    margin: 3px 0;
+}
+
+div input[type = "text"]{
+    height: 40px;
+    width: 200px;
+    background-color: bisque;
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #777;
+}
+
+div.resultado input, div.resultado button{
+    height: 40px;
+    width: 85px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+div.resultado button{
+    background-color: red;
+    color: white;
+    border: 1px solid #A91225;
+}
+
+div.resultado input{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orange;
+}
+
+#suma, #resta, #multiplicacion, #division, #porcentaje{
+    background-color: steelblue;
+    color: white;
+    border: 1px solid #777;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
